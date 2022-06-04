@@ -1,5 +1,10 @@
 import React from 'react';
 import StepPoint from '../StepPoint';
+import './styly.css';
+<style>
+  @import
+  url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lobster&display=swap');
+</style>;
 
 const Stepper = () => {
   const steppoints = [
@@ -26,12 +31,13 @@ const Stepper = () => {
       Odbojové místo
       {steppoints.map((steppoint) => {
         return (
-          <StepPoint
-            number={steppoint.number}
-            title={steppoint.title}
-            key={steppoint.number}
-            background="Obrázek"
-          />
+          <div key={steppoint.number} className="stepper">
+            <StepPoint
+              number={steppoint.number}
+              title={steppoint.title}
+              background="Obrázek"
+            />
+          </div>
         );
       })}
     </div>

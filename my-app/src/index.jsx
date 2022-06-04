@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { Mapa } from './komponenty/Mapa';
+import { Mapa } from '../public/Komponenty/Mapa';
 import './style.css';
 import Stepper from '../Public/Komponenty/Stepper';
 
