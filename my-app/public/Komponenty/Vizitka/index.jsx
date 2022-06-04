@@ -1,13 +1,12 @@
 import React from 'react';
-import StepPoint from '../StepPoint';
 import './styly.css';
 import data from '../../data.js';
 
-const Stepper = () => {
+const Vizitka = () => {
   return (
-    <div className="stepper">
+    <div className="vizitka">
       Odbojové místo
-      {data.map((steppoint) => {
+      {data.filter((steppoint) => {
         return (
           <div key={steppoint.number} className="stepper">
             <StepPoint
@@ -27,4 +26,4 @@ const Stepper = () => {
   );
 };
 
-export default Stepper;
+export default Vizitka;
