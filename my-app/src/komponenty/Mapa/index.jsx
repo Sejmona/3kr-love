@@ -2,6 +2,8 @@ import React from 'react';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import ReactMapGL from 'react-map-gl';
 import './style.css';
+/*import ReactMapGL, { Marker } from 'react-map-gl';*/
+import spendlikUrl from './../../img/spendlik.svg';
 
 export const Mapa = (props) => {
   const [viewport, setViewport] = React.useState({
@@ -39,7 +41,16 @@ export const Mapa = (props) => {
         height="100%"
         mapStyle={mapStyle}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
-      ></ReactMapGL>
+      >
+        {/*<Marker
+          offsetLeft={-25}
+          offsetTop={-50}
+          latitude={50.0814464}
+          longitude={14.4312725}
+        >
+          <img src={spendlikUrl} width={50} height={50} alt="Czechitas" />
+  </Marker>*/}
+      </ReactMapGL>
     </div>
   );
 };
