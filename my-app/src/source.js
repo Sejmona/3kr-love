@@ -1,4 +1,4 @@
-const data = [
+export default [
   {
     title: 'Petschkův palác – sídlo gestapa',
     number: '1',
