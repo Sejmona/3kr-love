@@ -1,13 +1,13 @@
 import React from 'react';
 import './header.css';
-
+import { Link } from 'react-router-dom';
 export const Header = () => {
   return (
     <div className="navigation">
       <nav className="nav-closed">
-        <a href="#game">Příběh hrdinů</a>
-        <a href="#rules">Pravidla hry</a>
-        <a href="#gallery">Prerekvizity</a>
+        <Link to="/game">Příběh hrdinů</Link>
+        <Link to="/rules">Pravidla hry</Link>
+        <Link to="/gallery">Prerekvizity</Link>
       </nav>
     </div>
   );
