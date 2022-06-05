@@ -4,6 +4,7 @@ import './style.css';
 import { Homepage } from './pages/Homepage/homepage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Game } from './pages/Game/game';
+import { Pribeh } from './komponenty/Pribeh/pribeh';
 import { Pravidla } from './komponenty/Pravidla/pravidla';
 import { Prerekvizity } from './komponenty/Prerekvizity/prerekvizity';
 import { Kontakty } from './komponenty/Kontakty/kontakty';
@@ -22,7 +23,7 @@ createRoot(document.querySelector('#app')).render(
       <Route path="/rules" element={<Pravidla />} />
       <Route path="/gallery" element={<Prerekvizity />} />
       {/*<Route path="/target" element={<CílProjektu />} />\
-      <Route path="/partners" element={<Partneři />} />*/}
+      <Route path="/partners" element={<Partneři />} /> />*/}
       <Route path="/kontakt" element={<Kontakty />} />
     </Routes>
   </BrowserRouter>,
