@@ -20,10 +20,10 @@ createRoot(document.querySelector('#app')).render(
       <Route path="/" element={<App />}>
         <Route path="/rules" element={<Pravidla />} />
         <Route path="/gallery" element={<Prerekvizity />} />
-      </Route>
-      {/*<Route path="/target" element={<CílProjektu />} />\
+        {/*<Route path="/target" element={<CílProjektu />} />\
         <Route path="/partners" element={<Partneři />} /> />*/}
-      <Route path="/kontakt" element={<Kontakty />} />
+        <Route path="/kontakt" element={<Kontakty />} />
+      </Route>
       <Route path="/game" element={<Game />} />
     </Routes>
   </BrowserRouter>,
