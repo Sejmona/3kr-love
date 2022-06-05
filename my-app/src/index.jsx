@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
-import { Homepage } from './pages/Homepage/homepage
+import { Homepage } from './pages/Homepage/homepage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => (
