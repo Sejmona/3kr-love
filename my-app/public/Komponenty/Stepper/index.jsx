@@ -1,37 +1,26 @@
 import React from 'react';
 import StepPoint from '../StepPoint';
+import './styly.css';
+import data from '../../data.js';
 
 const Stepper = () => {
-  const steppoints = [
-    {
-      title: 'Odbojové místo',
-      number: 1,
-    },
-    {
-      title: 'Památník',
-      number: 2,
-    },
-    {
-      title: 'Odbojové místo',
-      number: 3,
-    },
-    {
-      title: 'Památník',
-      number: 4,
-    },
-  ];
-
   return (
     <div className="stepper">
       Odbojové místo
-      {steppoints.map((steppoint) => {
+      {data.map((steppoint) => {
         return (
-          <StepPoint
-            number={steppoint.number}
-            title={steppoint.title}
-            key={steppoint.number}
-            background="Obrázek"
-          />
+          <div key={steppoint.number} className="stepper">
+            <StepPoint
+              title={steppoint.title}
+              number={steppoint.number}
+              image={steppoint.image}
+              description={steppoint.description}
+              question={steppoint.question}
+              answer={steppoint.answer}
+              adress={steppoint.adress}
+              gps={steppoint.gps}
+            />
+          </div>
         );
       })}
     </div>
