@@ -1,28 +1,16 @@
 import React from 'react';
 import './styly.css';
-import data from '../../data.js';
 
-const Vizitka = () => {
+const Vizitka = ({ stepData }) => {
   return (
-    <div className="vizitka">
-      Odbojové místo
-      {data.filter((steppoint) => {
-        return (
-          <div key={steppoint.number} className="stepper">
-            <StepPoint
-              title={steppoint.title}
-              number={steppoint.number}
-              image={steppoint.image}
-              description={steppoint.description}
-              question={steppoint.question}
-              answer={steppoint.answer}
-              adress={steppoint.adress}
-              gps={steppoint.gps}
-            />
-          </div>
-        );
-      })}
-    </div>
+    <>
+      <div className="vizitka">{stepData.number}</div>
+      <div className="vizitka">{stepData.title}</div>
+      <p className="vizitka">{stepData.image}</p>
+      <p className="vizitka">{stepData.description}</p>
+      <p className="vizitka">{stepData.question}</p>
+      <p className="vizitka">{stepData.answer}</p>
+    </>
   );
 };
 
