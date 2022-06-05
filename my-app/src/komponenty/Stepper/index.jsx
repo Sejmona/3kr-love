@@ -1,15 +1,21 @@
 import React from 'react';
 import StepPoint from '../StepPoint';
 import './styly.css';
-import data from '../../data.js';
+import data from '../../source.js';
 
-const Stepper = () => {
+const Stepper = ({ handleChange }) => {
   return (
     <div className="stepper">
       Odbojové místo
-      {data.map((steppoint) => {
+      {data.map((steppoint, index) => {
         return (
-          <div key={steppoint.number} className="stepper">
+          <div
+            key={index}
+            className="stepper"
+            onClick={() => {
+              handleChange(index);
+            }}
+          >
             <StepPoint
               title={steppoint.title}
               number={steppoint.number}
