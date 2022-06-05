@@ -3,15 +3,11 @@ import { createRoot } from 'react-dom/client';
 import { Mapa } from './komponenty/Mapa';
 import './style.css';
 import Stepper from '../Public/Komponenty/Stepper';
+import { Homepage } from './pages/Homepage/homepage';
 
 const App = () => (
   <div className="container">
-    <header>
-      <div className="logo"></div>
-    </header>
-    <Stepper />
-    <Mapa />
-    <footer></footer>
+    <Homepage />
   </div>
 );
 
