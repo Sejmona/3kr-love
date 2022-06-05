@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <div className="navigation">
       <nav className="nav-closed">
-        <Link to="/game">Příběh hrdinů</Link>
+        <Link to="/storry">Příběh hrdinů</Link>
         <Link to="/rules">Pravidla hry</Link>
         <Link to="/gallery">Prerekvizity</Link>
       </nav>
