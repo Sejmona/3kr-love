@@ -13,12 +13,12 @@ const Stepper = () => {
             <StepPoint
               title={steppoint.title}
               number={steppoint.number}
-              image={steppoint.image}
-              description={steppoint.description}
-              question={steppoint.question}
-              answer={steppoint.answer}
-              adress={steppoint.adress}
-              gps={steppoint.gps}
+              //image={steppoint.image}
+              //description={steppoint.description}
+              //question={steppoint.question}
+              //answer={steppoint.answer}
+              //adress={steppoint.adress}
+              //gps={steppoint.gps}//
             />
           </div>
         );
