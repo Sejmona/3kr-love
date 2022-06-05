@@ -1,14 +1,19 @@
 import React from 'react';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import ReactMapGL from 'react-map-gl';
+/*import ReactMapGL from 'react-map-gl';*/
 import './style.css';
+import './marker-button.css';
+import ReactMapGL, { Marker, Popup } from 'react-map-gl';
+import spendlikUrl from './../../img/spendlik.svg';
+import { Button } from './Button/button';
 
-export const Mapa = (props) => {
+export const Mapa = () => {
   const [viewport, setViewport] = React.useState({
     latitude: 50.0814464,
     longitude: 14.4312725,
     zoom: 15,
   });
+  const [popupOtevren, setPopupOtevren] = React.useState(false);
   const mapStyle = {
     version: 8,
     sources: {
@@ -39,7 +44,32 @@ export const Mapa = (props) => {
         height="100%"
         mapStyle={mapStyle}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
-      ></ReactMapGL>
+      >
+        <Marker
+          offsetLeft={-25}
+          offsetTop={-50}
+          latitude={50.0814464}
+          longitude={14.4312725}
+        >
+          <button
+            className="marker-button"
+            onClick={() => setPopupOtevren(true)}
+          >
+            <img src={spendlikUrl} width={50} height={50} alt="Czechitas" />
+          </button>
+          {popupOtevren && (
+            <Popup
+              offsetLeft={-25}
+              offsetTop={-50}
+              latitude={50.0814464}
+              longitude={14.4312725}
+              onClose={() => setPopupOtevren(false)}
+            >
+              <Button />
+            </Popup>
+          )}
+        </Marker>
+      </ReactMapGL>
     </div>
   );
 };
