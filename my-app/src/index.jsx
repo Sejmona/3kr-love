@@ -7,6 +7,7 @@ import { Game } from './pages/Game/game';
 import { Pravidla } from './komponenty/Pravidla/pravidla';
 import { Prerekvizity } from './komponenty/Prerekvizity/prerekvizity';
 import { Kontakty } from './komponenty/Kontakty/kontakty';
+import Vizitka from './komponenty/Vizitka';
 
 const App = () => (
   <div className="container">
