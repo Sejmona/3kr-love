@@ -1,0 +1,21 @@
+.navigation {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #2610cf;
+  font-size: 10px;
+}
+.navigation li {
+  display: inline-block;
+}
+.navigation a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 10px;
+  font-family: 'Charis SIL', sans-serif;
+}
+.navigation a:hover,
+.navigation a:focus {
+  background-color: rgb(28, 20, 70);
+}

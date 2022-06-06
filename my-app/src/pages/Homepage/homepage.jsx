@@ -4,12 +4,13 @@ import './homepage.css';
 import { Link, Outlet } from 'react-router-dom';
 import { Header } from '../../komponenty/Header/header';
 import { Footer } from '../../komponenty/Footer/footer';
+import { HlavniStranka } from '../../komponenty/HlavniStranka/hlavniStranka';
 
 export const Homepage = () => {
   return (
     <>
       <Header />
-      <Link to="/game">Hra</Link>
+      <HlavniStranka />
       <Outlet />
       <Footer />
     </>
