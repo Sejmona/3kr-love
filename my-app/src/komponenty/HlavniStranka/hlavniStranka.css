@@ -1,0 +1,24 @@
+h1 {
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1px;
+}
+.hlavicka {
+  background-image: url(./../../img/titulka.jpg);
+  padding: 20px;
+  background-repeat: round;
+  background-size: cover;
+  max-height: 550px;
+  max-width: 400px;
+  width: 100vh;
+  height: 100vh;
+}
+.hlavicka a {
+  text-decoration: none;
+  background-color: rgb(179, 182, 35);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+}

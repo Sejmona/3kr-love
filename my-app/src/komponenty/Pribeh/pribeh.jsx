@@ -9,7 +9,7 @@ export const Pribeh = () => {
     <body>
       <section className="pribeh">
         <h1>TŘI KRÁLOVÉ, HRDINOVÉ OBDOJE</h1>
-        <img src="balaban.jpg" alt="balaban" />
+        <img src={balaban} alt="balaban" />
         <img src="masin.jpg" alt="masin" />
         <img src="moravek.jpg" alt="moravek" />
         <div className="clanek">

@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lobster&family=Unica+One&display=swap');
+@import url('https://fonts.google.com/specimen/Charis+SIL?preview.text=T%C3%A9m%C4%9B%C5%99%20p%C5%99edt%C3%ADm,%20ne%C5%BE%20jsme%20si%20to%20uv%C4%9Bdomili,%20jsme%20opustili%20zemi.&preview.text_type=custom');
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Charis SIL', sans-serif;
 }
 
-/*.container {
-  max-width: 26rem;
-  margin-right: auto;
-  margin-left: auto;
+.container {
+  background-image: linear-gradient(to bottom, #36363c, #7c696f);
+  color: #ffffff;
+  height: 100vh;
+  max-width: 400px;
+  margin: auto;
 }
 
-header {
+/*header {
   display: flex;
   flex-direction: column;
   align-items: center;

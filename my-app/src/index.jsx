@@ -7,6 +7,7 @@ import { Game } from './pages/Game/game';
 import { Pravidla } from './komponenty/Pravidla/pravidla';
 import { Prerekvizity } from './komponenty/Prerekvizity/prerekvizity';
 import { Kontakty } from './komponenty/Kontakty/kontakty';
+import { Pribeh } from './komponenty/Pribeh/pribeh';
 
 const App = () => (
   <div className="container">
@@ -20,6 +21,8 @@ createRoot(document.querySelector('#app')).render(
       <Route path="/" element={<App />}>
         <Route path="/rules" element={<Pravidla />} />
         <Route path="/gallery" element={<Prerekvizity />} />
+        <Route path="/story" element={<Pribeh />} />
+
         {/*<Route path="/target" element={<CílProjektu />} />\
         <Route path="/partners" element={<Partneři />} /> />*/}
         <Route path="/kontakt" element={<Kontakty />} />
