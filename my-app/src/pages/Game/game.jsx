@@ -1,8 +1,8 @@
 import React from 'react';
 import { Mapa } from '../../komponenty/Mapa';
 import Stepper from '../../komponenty/Stepper';
+import Vizitka from '../../komponenty/Vizitka';
 import source from '../../source';
-import { useState } from 'react';
 
 let progress = localStorage.getItem('progress');
 
@@ -13,6 +13,8 @@ if (progress === null) {
 
 export const Game = () => {
   const [userPosition, setUserPosition] = React.useState(Number(progress));
+  const [openVizitka, setOpenVizitka] = React.useState(false);
+  console.log(openVizitka);
   console.log('DEBUG USER POSITON', userPosition);
 
   const getPosition = (entry) => {
@@ -27,10 +29,15 @@ export const Game = () => {
   return (
     <>
       <Stepper handleChange={getPosition} />
-      <Mapa
-        latitude={source[userPosition].latitude}
-        longitude={source[userPosition].longitude}
-      />
+      {openVizitka ? (
+        <Vizitka stepData={source[userPosition]} />
+      ) : (
+        <Mapa
+          latitude={source[userPosition].latitude}
+          longitude={source[userPosition].longitude}
+          handelClick={() => setOpenVizitka(!openVizitka)}
+        />
+      )}
     </>
   );
 };
