@@ -9,8 +9,8 @@ import { Prerekvizity } from './komponenty/Prerekvizity/prerekvizity';
 import { Kontakty } from './komponenty/Kontakty/kontakty';
 import { Vizitka } from './komponenty/Vizitka';
 import { Pribeh } from './komponenty/Pribeh/pribeh';
-import { Podekovani } from './komponenty/Podekovani';
-import { Onas } from './komponenty/Onas';
+import { Podekovani } from './komponenty/Podekovani/podekovani';
+import { Onas } from './komponenty/Onas/onas';
 
 const App = () => (
   <div className="container">
