@@ -1,0 +1,12 @@
+.stepper {
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background-image: url(./../../img/podklad.jpg);
+  background-repeat: round;
+  background-size: cover;
+  height: 2300px;
+  max-width: 400px;
+  padding: '10px';
+}

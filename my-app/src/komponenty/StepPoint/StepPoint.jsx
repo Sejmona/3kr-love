@@ -13,6 +13,7 @@ const StepPoint = (props) => {
       <p className="stepper__background__answer">{answer}</p>
       <p className="stepper__background__adress">{adress}</p>
       <p className="stepper__background__gps">{gps}</p>
+      <img className="stepper__background" src={blesk} alt="blesk" />
     </div>
   );
 };

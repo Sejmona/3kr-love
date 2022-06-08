@@ -7,7 +7,7 @@ export const Prerekvizity = () => {
       <h1>Tři králové, hrdinové odboje</h1>
       <p>
         My, na rozdíl od trýznitelů našich hrdinů, se Ti pokusíme hru ulehčit, a
-        proto Ti hned na začátku pozradíme, co by si mohl při hře potřebovat,
+        proto Ti hned na začátku prozradíme, co by si mohl při hře potřebovat,
         aby se zvýšila šance, že z ní vyvázneš živ:
       </p>
       <h2>Prerekvizity</h2>
@@ -18,7 +18,7 @@ export const Prerekvizity = () => {
         <li>tužka</li>
         <li>papír</li>
         <li>svačina</li>
-        <li>voda</li>
+        <li>nápoj</li>
       </ul>
       <img
         className="prerekvizitni-fotka"

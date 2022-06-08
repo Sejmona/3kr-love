@@ -7,18 +7,20 @@ export const Podekovani = () => {
     <div className="partneri">
       <h1>TŘI KRÁLOVÉ, HRDINOVÉ OBDOJE</h1>
       <h2>Poděkování</h2>
-      Velice bychom chtěli poděkovat za spolupráci lidem, bez kterých by tato
-      hra nevznikla. Zdeněk Ležák, autor textu komiksu Tři králové, který nám
-      umožnil použít jejich grafiku v naší hře a věnoval nám spousty času s
-      vybíráním zásadních míst pro hru. Blanka Semanová – náš mentor, učitelka
-      Reactu, výborná poradkyně a mentorka i bez ní by hra vznikla velice těžko.
-      Jakub Fišer – náš druhý mentor, který byl velkou knihovnou a věnoval
-      tomuto projektu hodně času a bez něj by velice těžko tato hra vznikla.
-      Czechitas – akademie a její mentoři Filip Chalupa, Filip Jirsák, Martin
-      Podloucký, Natálie Rydzá a další bez kterých bychom nikdy nebyli kodérky.
-      Petr Šmelhaus – on celý příběh vymyslel a konzultoval s námi. Byl nám
-      velikou oporou a touto cestou bych mu velice poděkovat za hodiny a dny
-      strávené nad tímto příběhem s námi.
+      <p>
+        V této sekci bychom chtěly velice poděkovat za spolupráci a podporu
+        lidem, bez kterých by hra, Tři králové, nikdy nevznikla. V prvé řadě
+        děkujeme spisovateli a šéfredaktorovi časopisu ABC Zdeňku Ležákovi. Hra
+        je inspirovaná jeho knižní předlohou, propůjčenými grafickými podklady a
+        společnými konzultacemi. Dále děkujeme mentorské dvojici, Blanka
+        Semanová a Jakub Fišer, kteří prokázali velkou znalost programovacích
+        jazyků a současně chuť nám tyto své znalosti předat. Zároveň náš dík
+        putuje všem lektorům Digitální akademie Czechitas, jmenovitě však Filip
+        Jirsák, Filip Chalupa, Martin Podloucký a Natálie Rydzá, kteří nám
+        pomohli v prvníh krůčcích na naší cestě stát se kodérkami. Díky patří i
+        Petru Šmelhausovi, jakožto klíčové osobě při obsahových konzultacích a
+        tvorbě herního příběhu.
+      </p>
       <img className="partneri-fotka" src={partneri} alt="partneri-fotka" />
     </div>
   );

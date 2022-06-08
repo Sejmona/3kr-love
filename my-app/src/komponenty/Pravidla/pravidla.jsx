@@ -15,13 +15,13 @@ export const Pravidla = () => {
         se dozvíš, jaká historická událost je s nimi spjata. Mapa, kterou pro
         pohyb po městě používáš, Ti zpřístupní herní otázku, na kterou musíš
         odpovědět, aby si zjistil, kam jít dál. To ale není všechno. Každé místo
-        si dobře prohlédni, protože ono samotné je zdrojem indicií k vyluštění
-        tajenky. Tajenka se skládá z 10 písmen. Na každé lokaci zjistíš jedno
-        písmeno tak, aby si na poslední lokaci mohl vyluštit tajenku a vyhrát
-        hru. Záměrně jsme vybraly běžná místa, taková, která by tě na první
-        pohled možná asi nezaujala. Věř, že to právě byl náš cíl. Chtěly jsme,
-        aby ses začal na město dívat trochu jinak. Aby se ti rozšířily obzory a
-        uvědomil sis, jak velké příběhy se mohou skrývat za místy a uličkami, do
+        si dobře prohlédni, protože ono samotné je indicií k vyluštění tajenky.
+        Tajenka se skládá z 10 písmen. Na každé lokaci zjistíš jedno písmeno
+        tak, aby si na poslední lokaci mohl vyluštit celou tajenku a vyhrát hru.
+        Záměrně jsme vybraly běžná místa, taková, která by tě na první pohled
+        možná asi nezaujala. Věř, že to právě byl náš cíl. Chtěly jsme, aby ses
+        začal na město dívat trochu jinak. Aby se ti rozšířily obzory a uvědomil
+        sis, jak velké příběhy se mohou skrývat za budovami a uličkami, do
         kterých by si to nikdy neřekl.
       </p>
       <img src={pravidla} alt="kontaktní fotka" />
