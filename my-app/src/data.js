@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Místo odbojové činnosti.',
+    title: 'Petschkův palác',
     number: 1,
     image: [],
     description: 'xxxxx',
@@ -11,8 +11,8 @@ export default [
   },
 
   {
-    title: 'Památník',
-    number: 1,
+    title: 'Mrtvá schránka',
+    number: 2,
     image: [],
     description: 'xxxxx',
     question: 'Jaký je xxx?',
@@ -21,8 +21,8 @@ export default [
     gps: '..',
   },
   {
-    title: 'Schránka.',
-    number: 1,
+    title: 'Studentská ulice',
+    number: 3,
     image: [],
     description: 'xxxxx',
     question: 'Jaký je xxx?',
