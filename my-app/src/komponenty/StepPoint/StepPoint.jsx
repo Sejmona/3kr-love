@@ -1,4 +1,5 @@
 import React from 'react';
+import blesk from './../../img/blesk.png';
 
 const StepPoint = (props) => {
   const { title, number, image, description, question, answer, adress, gps } =
