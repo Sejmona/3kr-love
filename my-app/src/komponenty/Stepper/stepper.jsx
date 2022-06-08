@@ -1,5 +1,6 @@
 import React from 'react';
 import StepPoint from '../StepPoint/StepPoint';
+
 import './stepper.css';
 import data from '../../source.js';
 

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Mapa } from '../../komponenty/Mapa';
-import Stepper from '../../komponenty/Stepper';
+import Stepper from '../../komponenty/Stepper/stepper';
 import Vizitka from '../../komponenty/Vizitka';
 import source from '../../source';
 
 let progress = localStorage.getItem('progress');
 
 if (progress === null) {
+  npm;
   progress = '0';
   localStorage.setItem('progress', '0');
 }
