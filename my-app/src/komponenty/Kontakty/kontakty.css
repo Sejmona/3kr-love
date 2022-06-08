@@ -1,0 +1,25 @@
+.kontakt {
+  display: inline-block;
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 20px;
+  background-image: url(./../../img/podklad.jpg);
+  padding: 20px;
+  background-repeat: round;
+  background-size: cover;
+  max-height: 500px;
+  max-width: 400px;
+  width: 100vh;
+  height: 100vh;
+  font-size: 15px;
+  text-align: center;
+}
+.kontakt a {
+  text-decoration: none;
+  font-family: 'Charis SIL', sans-serif;
+  color: aliceblue;
+}
+.kontaktni-fotka {
+  width: 200px;
+  height: 150px;
+  border-radius: 20px 20px;
+}

@@ -2,8 +2,12 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #2610cf;
-  font-size: 10px;
+  background-color: rgb(20, 20, 19);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 .menu li {
   display: inline-block;
@@ -18,4 +22,17 @@
 .menu a:hover,
 .menu a:focus {
   background-color: rgb(28, 20, 70);
+}
+
+.logo {
+  background-color: #262a29;
+}
+
+.logo:hover,
+:focus {
+  background-color: #1e2f2b;
+}
+.button-tlacitka {
+  width: 30px;
+  height: 40px;
 }

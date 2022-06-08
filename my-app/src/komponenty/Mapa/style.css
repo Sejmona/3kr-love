@@ -1,4 +1,16 @@
 .mapa {
   width: 400px;
   height: 300px;
+  filter: grayscale(80%);
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 20px;
+  background-image: url(./../../img/podklad.jpg);
+  padding: 20px;
+  background-repeat: round;
+  background-size: cover;
+
+  width: 100vh;
+  height: 100vh;
+  font-size: 15px;
+  text-align: center;
 }

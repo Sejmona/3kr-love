@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #2610cf;
-  font-size: 10px;
+  background-color: rgb(20, 20, 19);
+  font-size: 15px;
 }
 .navigation li {
   display: inline-block;

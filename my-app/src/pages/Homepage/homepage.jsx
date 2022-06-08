@@ -10,7 +10,7 @@ export const Homepage = () => {
   return (
     <>
       <Header />
-      <HlavniStranka />
+      {/*<HlavniStranka />*/}
       <Outlet />
       <Footer />
     </>
