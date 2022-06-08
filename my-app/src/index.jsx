@@ -9,8 +9,8 @@ import { Prerekvizity } from './komponenty/Prerekvizity/prerekvizity';
 import { Kontakty } from './komponenty/Kontakty/kontakty';
 import { Vizitka } from './komponenty/Vizitka';
 import { Pribeh } from './komponenty/Pribeh/pribeh';
-import { Podekovani } from './komponenty/Podekovani';
-import { Onas } from './komponenty/Onas';
+import { Podekovani } from './komponenty/Podekovani/podekovani';
+import { Onas } from './komponenty/Onas/onas';
 
 const App = () => (
   <div className="container">
@@ -21,14 +21,15 @@ const App = () => (
 createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/rules" element={<Pravidla />} />
-      <Route path="/gallery" element={<Prerekvizity />} />
-      <Route path="/story" element={<Pribeh />} />
-      <Route path="/podekovani" element={<Podekovani />} />
-      <Route path="/target" element={<Onas />} />
-      <Route path="/kontakt" element={<Kontakty />} />
-      <Route path="/game" element={<Game />} />
+      <Route path="/" element={<App />}>
+        <Route path="/rules" element={<Pravidla />} />
+        <Route path="/gallery" element={<Prerekvizity />} />
+        <Route path="/story" element={<Pribeh />} />
+        <Route path="/podekovani" element={<Podekovani />} />
+        <Route path="/target" element={<Onas />} />
+        <Route path="/kontakt" element={<Kontakty />} />
+        <Route path="/game" element={<Game />} />
+      </Route>
     </Routes>
     ,
   </BrowserRouter>,
