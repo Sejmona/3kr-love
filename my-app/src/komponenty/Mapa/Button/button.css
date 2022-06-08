@@ -1,3 +1,8 @@
 .palac {
   border: solid;
+  width: 100px;
+  height: 100px;
+  font-family: 'Charis SIL', sans-serif;
+  color: aliceblue;
+  background-color: black;
 }

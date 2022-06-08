@@ -67,8 +67,8 @@ export const Mapa = ({ latitude, longitude, handelClick }) => {
           </button>
           {popupOtevren && (
             <Popup
-              offsetLeft={-25}
-              offsetTop={-50}
+              offsetLeft={-100}
+              offsetTop={-300}
               latitude={latitude}
               longitude={longitude}
               onClose={() => setPopupOtevren(false)}

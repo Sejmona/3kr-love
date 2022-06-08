@@ -6,9 +6,9 @@ export const Footer = () => {
   return (
     <div className="navigation">
       <nav className="nav-closed">
-        <Link to="/target">Cíl projektu</Link>
-        <Link to="/partners">Partneři</Link>
-        <Link to="/kontakt">Kontakt</Link>
+        <Link to="/target">O nás</Link>
+        <Link to="/podekovani">Poděkování</Link>
+        <Link to="/kontakt">Kontakty</Link>
       </nav>
     </div>
   );

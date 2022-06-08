@@ -1,0 +1,27 @@
+.pribeh {
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  background-image: url(./../../img/podklad.jpg);
+  padding: 20px;
+  background-repeat: round;
+  background-size: cover;
+  height: 2300px;
+  max-width: 400px;
+
+  text-align: center;
+}
+.balaban {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px 20px;
+}
+.masin {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px 20px;
+}
+.moravek {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px 20px;
+}
