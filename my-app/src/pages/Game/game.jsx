@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mapa } from '../../komponenty/Mapa';
-import Stepper from '../../komponenty/Stepper';
+import Stepper from '../../komponenty/Stepper/stepper';
 import Vizitka from '../../komponenty/Vizitka';
 import source from '../../source';
 
