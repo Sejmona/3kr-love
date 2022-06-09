@@ -21,14 +21,15 @@ const App = () => (
 createRoot(document.querySelector('#app')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/rules" element={<Pravidla />} />
-      <Route path="/gallery" element={<Prerekvizity />} />
-      <Route path="/story" element={<Pribeh />} />
-      <Route path="/podekovani" element={<Podekovani />} />
-      <Route path="/target" element={<Onas />} />
-      <Route path="/kontakt" element={<Kontakty />} />
-      <Route path="/game" element={<Game />} />
+      <Route path="/" element={<App />}>
+        <Route path="/rules" element={<Pravidla />} />
+        <Route path="/gallery" element={<Prerekvizity />} />
+        <Route path="/story" element={<Pribeh />} />
+        <Route path="/podekovani" element={<Podekovani />} />
+        <Route path="/target" element={<Onas />} />
+        <Route path="/kontakt" element={<Kontakty />} />
+        <Route path="/game" element={<Game />} />
+      </Route>
     </Routes>
     ,
   </BrowserRouter>,

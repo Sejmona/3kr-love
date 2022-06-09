@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
-    <div className="navigation">
-      <nav className="nav-closed">
+    <div className="menu">
+      <nav className="menu-closed">
         <Link to="/target">O nás</Link>
         <Link to="/podekovani">Poděkování</Link>
         <Link to="/kontakt">Kontakty</Link>
