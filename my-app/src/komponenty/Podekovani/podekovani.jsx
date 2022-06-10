@@ -18,12 +18,10 @@ export const Podekovani = () => {
         znalost programovacích jazyků a současně chuť nám tyto své znalosti
         předat. Zároveň náš dík putuje všem lektorům Digitální akademie
         Czechitas, jmenovitě však{' '}
-        <strong>
-          Filip Chalupa, Filip Jirsák, Martin Podloucký a Natálie Rydzá
-        </strong>
-        , kteří nám pomohli v prvníh krůčcích na naší cestě stát se kodérkami.
-        Díky patří i <strong>Petru Šmelhausovi</strong>, jakožto klíčové osobě
-        při obsahových konzultacích a tvorbě herního příběhu.
+        <strong>Filip Chalupa, Filip Jirsák a Natálie Rydzá</strong>, kteří nám
+        pomohli v prvníh krůčcích na naší cestě stát se kodérkami. Díky patří i{' '}
+        <strong>Petru Šmelhausovi</strong>, jakožto klíčové osobě při obsahových
+        konzultacích a tvorbě herního příběhu.
       </p>
       <img className="partneri-fotka" src={partneri} alt="partneri-fotka" />
     </div>
