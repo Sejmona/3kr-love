@@ -9,23 +9,14 @@ html {
 }
 
 .container {
-  background-image: linear-gradient(to bottom, #36363c, #7c696f);
   color: #ffffff;
   height: 100vh;
-  max-width: 400px;
-  margin: auto;
-}
-
-/*header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
 }
-
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
-}*/
+.hlavicka {
+  background-image: url(https://lokalhost:8080/img/titulka-4c1652..jpg);
+  padding: 20px;
+  background-size: cover;
+  height: 100vh;
+}

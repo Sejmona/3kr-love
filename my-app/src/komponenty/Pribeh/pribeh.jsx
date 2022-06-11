@@ -10,7 +10,7 @@ export const Pribeh = () => {
       <h1>TŘI KRÁLOVÉ, HRDINOVÉ OBDOJE</h1>
 
       <img className="balaban" src={balaban} alt="balaban" />
-      <p>Josef Balabán – 1894-1941</p>
+      <h2>Josef Balabán – 1894-1941 </h2>
       <p>
         Byl československý legionář v Rusku, zpátky do Československa se vrátil
         s hodností podporučíka a s touto hodností vstupuje do armády. V roce
@@ -30,7 +30,7 @@ export const Pribeh = () => {
         memoriam do hodnosti generálmajora.
       </p>
       <img className="masin" src={masin} alt="masin" />
-      <p>Josef Mašín 1896 - 1942</p>
+      <h2>Josef Mašín 1896 - 1942 </h2>
       <p>
         První světovou válku prožil, na ruské frontě. Rakouskouherskou uniformu
         oblékal ale krátce, v roce 1915 přeběhl a byl přijat do československých
@@ -54,7 +54,7 @@ export const Pribeh = () => {
       </p>
       <img className="moravek" src={moravek} alt="moravek" />
 
-      <p>Václav Morávek 1904-1942</p>
+      <h2>Václav Morávek 1904-1942 </h2>
       <p>
         Nejmladší z trojice Tří králů. Nastoupil do armády v roce1923 a po
         okupaci byl v hodnosti štábního kapitána. Byl armádním přeborníkem ve

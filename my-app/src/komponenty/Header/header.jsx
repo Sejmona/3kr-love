@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <div className="menu">
       <a href="index.html">
-        <img class="button-tlacitka" src={logo} />
+        <img className="button-tlacitka" src={logo} />
       </a>
       <nav className="menu-closed">
         <Link to="/story">Příběh hrdinů</Link>

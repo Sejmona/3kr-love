@@ -1,12 +1,13 @@
 .onas {
+  display: block;
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
   background-image: url(./../../img/podklad.jpg);
   padding: 20px;
   background-repeat: round;
   background-size: cover;
-  max-height: 550px;
-  max-width: 400px;
-  width: 100vh;
-  height: 100vh;
+}
+img {
+  height: 150px;
+  width: 150px;
 }

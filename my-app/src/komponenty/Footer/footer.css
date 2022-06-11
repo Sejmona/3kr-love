@@ -4,6 +4,8 @@
   text-align: center;
   background-color: rgb(20, 20, 19);
   font-size: 15px;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 .menu li {
   display: inline-block;
