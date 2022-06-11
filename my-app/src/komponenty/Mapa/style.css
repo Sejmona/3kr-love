@@ -8,5 +8,6 @@
   background-size: cover;
   font-size: 15px;
   text-align: center;
+  width: 100vh;
   height: 100vh;
 }
