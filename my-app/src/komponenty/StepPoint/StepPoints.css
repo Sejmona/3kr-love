@@ -1,13 +1,38 @@
-/*.stepper__background {
+.steppoint__background {
+  display: flex;
+  background-color: rgb(179, 132, 132);
+  border-radius: 25%;
+}
+
+.steppoint__background__number1 {
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
   color: black;
   text-align: center;
-  background-image: url(./../../img/blesk.png);
-  background-color: grey;
-  background-repeat: round;
-  background-size: cover;
-  height: 2300px;
-  max-width: 400px;
   padding: '10px';
-}*/
+}
+
+.steppoint__background__title1 {
+  flex-flow: column wrap;
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding: '10px';
+}
+
+.steppoint__background__number2 {
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding: '10px';
+}
+.steppoint__background__title2 {
+  flex-flow: column wrap;
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding: '10px';
+}

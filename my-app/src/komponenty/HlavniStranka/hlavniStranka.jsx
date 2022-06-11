@@ -10,7 +10,8 @@ export const HlavniStranka = () => {
       <h2>"Úniková hra na pomezí reality a urban legend"</h2>
       <Link to="/game">Pojď hrát</Link>
       <p>
-        <img className="titulek" src={titulek} alt="Titulní nadpis" />
+        <img className="titulek" src={titulek} alt="Titulní nadpis" /> - tohle
+        změnit na novou 3člennou bublnku pojďme hrát.
       </p>
     </div>
   );
