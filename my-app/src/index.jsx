@@ -29,7 +29,7 @@ createRoot(document.querySelector('#app')).render(
         <Route path="/target" element={<Onas />} />
         <Route path="/kontakt" element={<Kontakty />} />
         <Route path="/game" element={<Game />} />
-        <Route path="/game" element={<Vizitka />} />
+        <Route path="/vizitka" element={<Vizitka />} />
       </Route>
     </Routes>
     ,

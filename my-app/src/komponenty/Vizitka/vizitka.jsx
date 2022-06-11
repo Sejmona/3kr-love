@@ -9,15 +9,15 @@ export const Vizitka = ({ stepData }) => {
         <div className="vizitka__title">{stepData.title}</div>
         <p className="vizitka__description">{stepData.description}</p>
         <p className="vizitka__image">{stepData.image}</p>
-        <p className="vizitka__adress">{adress}</p>
+        <p className="vizitka__address">{stepData.address}</p>
 
         <div className="form">
           <form>
             <label htmlFor="question">{stepData.question}</label>
             <select id="question" name="question">
-              {stepData.answer.map(({ item, index }) => {
-                <option value={index}>{item}</option>;
-              })}
+              {stepData.answer.map((item, index) => (
+                <option value={index}>{item}</option>
+              ))}
             </select>
           </form>
         </div>

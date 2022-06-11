@@ -7,7 +7,6 @@ import { Vizitka } from '../../komponenty/Vizitka/vizitka';
 let progress = localStorage.getItem('progress');
 
 if (progress === null) {
-  npm;
   progress = '0';
   localStorage.setItem('progress', '0');
 }
