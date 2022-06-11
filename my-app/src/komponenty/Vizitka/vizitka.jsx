@@ -1,7 +1,7 @@
 import React from 'react';
-import './styly.css';
+import './vizitka.css';
 
-const Vizitka = ({ stepData }) => {
+export const Vizitka = ({ stepData }) => {
   return (
     <>
       <div className="vizitka__page">
@@ -25,5 +25,3 @@ const Vizitka = ({ stepData }) => {
     </>
   );
 };
-
-export default Vizitka;

@@ -7,7 +7,7 @@ import { Game } from './pages/Game/game';
 import { Pravidla } from './komponenty/Pravidla/pravidla';
 import { Prerekvizity } from './komponenty/Prerekvizity/prerekvizity';
 import { Kontakty } from './komponenty/Kontakty/kontakty';
-import { Vizitka } from './komponenty/Vizitka';
+import { Vizitka } from './komponenty/Vizitka/vizitka';
 import { Pribeh } from './komponenty/Pribeh/pribeh';
 import { Podekovani } from './komponenty/Podekovani/podekovani';
 import { Onas } from './komponenty/Onas/onas';
@@ -29,6 +29,7 @@ createRoot(document.querySelector('#app')).render(
         <Route path="/target" element={<Onas />} />
         <Route path="/kontakt" element={<Kontakty />} />
         <Route path="/game" element={<Game />} />
+        <Route path="/game" element={<Vizitka />} />
       </Route>
     </Routes>
     ,
