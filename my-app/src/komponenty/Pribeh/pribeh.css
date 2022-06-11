@@ -6,7 +6,12 @@
   padding: 20px;
   background-repeat: round;
   background-size: cover;
+  height: 2400px;
+  max-width: 400px;
   text-align: center;
+}
+h1 {
+  padding-bottom: 20px;
 }
 .balaban {
   padding-top: 20px;

@@ -7,11 +7,14 @@
   padding-bottom: 7px;
   padding-top: 7px;
 }
+.menu li {
+  display: inline-block;
+}
 .menu a {
   display: inline-block;
   color: #ffffff;
   text-decoration: none;
-  padding: 12px 10px;
+  padding: 20px 10px;
   font-family: 'Charis SIL', sans-serif;
 }
 .menu a:hover,
