@@ -5,9 +5,10 @@ import logo from './../../img/logo.jpg';
 export const Header = () => {
   return (
     <div className="menu">
-      <a href="index.html">
+      <Link to="/">
         <img className="button-tlacitka" src={logo} />
-      </a>
+      </Link>
+
       <nav className="menu-closed">
         <Link to="/story">Příběh hrdinů</Link>
         <Link to="/rules">Pravidla hry</Link>

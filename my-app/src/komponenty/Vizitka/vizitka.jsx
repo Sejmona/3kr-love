@@ -9,7 +9,7 @@ export const Vizitka = ({ stepData }) => {
         <div className="vizitka__title">{stepData.title}</div>
         <p className="vizitka__description">{stepData.description}</p>
         <p className="vizitka__image">{stepData.image}</p>
-        <p className="vizitka__adress">{adress}</p>
+        <p className="vizitka__address">{stepData.address}</p>
 
         <div className="form">
           <form>

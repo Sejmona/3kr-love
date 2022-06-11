@@ -12,7 +12,7 @@ const Stepper = ({ handleChange }) => {
         return (
           <div
             key={index}
-            className="stepper"
+            className="inner_stepper"
             onClick={() => {
               handleChange(index);
             }}

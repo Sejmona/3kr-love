@@ -20,19 +20,3 @@
   text-align: center;
   padding: '10px';
 }
-
-.steppoint__background__number2 {
-  font-family: 'Charis SIL', sans-serif;
-  font-size: 15px;
-  color: black;
-  text-align: center;
-  padding: '10px';
-}
-.steppoint__background__title2 {
-  flex-flow: column wrap;
-  font-family: 'Charis SIL', sans-serif;
-  font-size: 15px;
-  color: black;
-  text-align: center;
-  padding: '10px';
-}

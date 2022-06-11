@@ -4,6 +4,7 @@ export default [
   {
     title: 'Petschkův palác – sídlo gestapa',
     number: '1',
+    address: 'Adresa 1',
     image: ['pp1', 'pp2', 'pp3', 'pp4'],
     descripsion:
       'Stojíte před budovou Petschkova paláce, právě tady za II. světové války sídlilo gestapo. Dnes tuto historii připomíná pamětní deska a památník uvnitř, pokud máte čas a vejděte dovnitř, dozvíte se, co se zde odehrávalo. Na jaře 1939 přišly za postupujícími německými vojáky operační skupiny gestapa a rozhlížely se po vhodné budově a do oka jim padla právě tato. Od května 1939 si ji začalo gestapo připravovat a budovat ke svému účelu.Tři králové dokázali představitele gestapa dostat do nepříčetnosti. A to například časopis V boj, který vydávala vojenská odbojová organizace Obrana národa. Mezi jinými jej nejvíce rozšiřovali tři vojáci, které gestapo nazvalo Třemi králi - podplukovníci Josef Balabán, Josef Mašín a štábní kapitán Morávek. Jeden výtisk aktuálního čísla vždy dopravovali sem do této budovy úředníkům gestapa, aby mohli počíst. Když se gestapu, podařilo jednu z ilegálních tiskáren, kde se ten časopis tiskl, odhalit, bylo pro ně překvapením, že následující číslo opět dorazilo. Tiskárny byly totiž dvě. A Morávek se do poslední chvíle snažil, aby časopis na gestapo docházel. "Dva ze Tří králů zdejšími celami a mučírnou také prošli. I jejich osudy památník připomíná, stejně tak jako koncentrační tábory, kde mnozí z vyslýchaných skončili.',
