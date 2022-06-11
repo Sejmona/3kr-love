@@ -1,5 +1,3 @@
-//přelinkovat z data.js na source.js
-
 export default [
   {
     title: 'Petschkův palác – sídlo gestapa',
@@ -85,7 +83,7 @@ export default [
     longitude: 14.3888922,
   },
   {
-    title: 'Čiklova ulice - přepadení Gestapem',
+    title: 'Čiklova ulice Praha 4- přepadení Gestapem',
     number: '5',
     image: ['tj1', 'tj2'],
     description:
