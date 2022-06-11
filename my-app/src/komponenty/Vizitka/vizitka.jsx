@@ -15,9 +15,9 @@ export const Vizitka = ({ stepData }) => {
           <form>
             <label htmlFor="question">{stepData.question}</label>
             <select id="question" name="question">
-              {stepData.answer.map(({ item, index }) => {
-                <option value={index}>{item}</option>;
-              })}
+              {stepData.answer.map((item, index) => (
+                <option value={index}>{item}</option>
+              ))}
             </select>
           </form>
         </div>

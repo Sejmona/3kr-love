@@ -9,7 +9,7 @@ export const Onas = () => {
       <h1>Tři králové, hrdinové odboje</h1>
       <p>Simona Šmelhausová - spoluautor hry</p>
       <img className="simona" src={simona} alt="Obrázek autorky" />
-      <p> Klára Václavovíková - spoluautor hry</p>
+      <p> Klára Václavíková - spoluautor hry</p>
       <img className="klara" src={klara} alt="Obrázek autorky" />
     </div>
   );
