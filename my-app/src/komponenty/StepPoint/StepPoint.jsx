@@ -1,21 +1,32 @@
 import React from 'react';
 
 const StepPoint = (props) => {
-  const { title, number, image, description, question, answer, adress, gps } =
-    props;
+  const { title, number } = props;
   return (
-    <div className="stepper__background">
-      <p className="stepper__background__title">{title}</p>
-      <p className="stepper__background__number">{number}</p>
-      <p className="stepper__background__image">{image}</p>
-      <p className="stepper__background__description">{description}</p>
-      <p className="stepper__background__question">{question}</p>
-      <p className="stepper__background__answer">{answer}</p>
-      <p className="stepper__background__adress">{adress}</p>
-      <p className="stepper__background__gps">{gps}</p>
-      <img className="stepper__background" src={blesk} alt="blesk" />
+    <div className="steppoint__background">
+      <span className="steppoint__background__title1">{title}</span>
+      <span className="steppoint__background__number1">{number}</span>
+      <span className="steppoint__background__title2">{title}</span>
+      <span className="steppoint__background__number2">{number}</span>
     </div>
   );
 };
 
 export default StepPoint;
+
+/* 
+
+ const { title, number, image, description, question, answer, adress, gps }
+
+<p className="steppoint__background__image">{image}</p>
+      <p className="steppoint__background__description">{description}</p>
+      <p className="steppoint__background__question">{question}</p>
+      <p className="steppoint__background__answer">{answer}</p>
+      <p className="steppoint__background__adress">{adress}</p>
+      <p className="steppoint__background__gps">{gps}</p>
+
+
+      import blesk from './../../img/blesk.png';
+      <img className="steppoint__background" src={blesk} alt="blesk" 
+      
+      */

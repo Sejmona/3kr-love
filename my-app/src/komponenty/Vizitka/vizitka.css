@@ -1,0 +1,42 @@
+.vizitka__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./../../img/podklad.jpg);
+}
+
+.vizitka__number {
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.vizitka__title {
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.vizitka__description {
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+/* asi jen jeden obrázek z komiksového příběhu vložit pro ppt*/
+
+.vizitka__image {
+  border-radius: 15%;
+}
+
+.form {
+  font-family: 'Charis SIL', sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  background-repeat: round;
+  background-size: cover;
+  height: 2300px;
+  max-width: 400px;
+  padding: '10px';
+}

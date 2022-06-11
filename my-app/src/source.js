@@ -1,3 +1,5 @@
+//přelinkovat z data.js na source.js
+
 export default [
   {
     title: 'Petschkův palác – sídlo gestapa',

@@ -17,16 +17,7 @@ const Stepper = ({ handleChange }) => {
               handleChange(index);
             }}
           >
-            <StepPoint
-              title={steppoint.title}
-              number={steppoint.number}
-              //image={steppoint.image}
-              //description={steppoint.description}
-              //question={steppoint.question}
-              //answer={steppoint.answer}
-              //adress={steppoint.adress}
-              //gps={steppoint.gps}//
-            />
+            <StepPoint title={steppoint.title} number={steppoint.number} />
           </div>
         );
       })}
