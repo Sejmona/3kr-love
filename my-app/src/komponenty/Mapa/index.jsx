@@ -63,12 +63,18 @@ export const Mapa = ({ latitude, longitude, handelClick }) => {
             className="marker-button"
             onClick={() => setPopupOtevren(true)}
           >
-            <img src={spendlikUrl} width={50} height={50} alt="Czechitas" />
+            <img
+              className="spendlik"
+              src={spendlikUrl}
+              width={50}
+              height={50}
+              alt="Czechitas"
+            />
           </button>
           {popupOtevren && (
             <Popup
-              offsetLeft={-100}
-              offsetTop={-300}
+              offsetLeft={-200}
+              offsetTop={-200}
               latitude={latitude}
               longitude={longitude}
               onClose={() => setPopupOtevren(false)}

@@ -5,4 +5,9 @@
   display: flex;
   outline: none;
   cursor: pointer;
+  width: 10%;
+}
+.spendlik {
+  height: 50px;
+  width: 40px;
 }

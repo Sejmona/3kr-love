@@ -3,24 +3,25 @@
   flex-direction: column;
   justify-content: center;
   background-image: url(./../../img/podklad.jpg);
+  text-align: center;
 }
 
 .vizitka__number {
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
-  color: black;
+  color: aliceblue;
 }
 
 .vizitka__title {
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
-  color: black;
+  color: aliceblue;
 }
 
 .vizitka__description {
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
-  color: black;
+  color: aliceblue;
 }
 
 /* asi jen jeden obrázek z komiksového příběhu vložit pro ppt*/

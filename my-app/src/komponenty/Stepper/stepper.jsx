@@ -7,7 +7,6 @@ import data from '../../source.js';
 const Stepper = ({ handleChange }) => {
   return (
     <div className="stepper">
-      Odbojové místo
       {data.map((steppoint, index) => {
         return (
           <div

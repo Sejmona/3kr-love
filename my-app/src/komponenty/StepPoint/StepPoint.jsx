@@ -4,7 +4,6 @@ const StepPoint = (props) => {
   const { title, number } = props;
   return (
     <div className="steppoint__background">
-      <span className="steppoint__background__title1">{title}</span>
       <span className="steppoint__background__number1">{number}</span>
     </div>
   );
