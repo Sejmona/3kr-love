@@ -1,43 +1,32 @@
 .vizitka__page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-image: url(./../../img/podklad.jpg);
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .vizitka__number {
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
   color: aliceblue;
-}
-
-.vizitka__title {
-  font-family: 'Charis SIL', sans-serif;
-  font-size: 15px;
-  color: aliceblue;
-}
-
-.vizitka__description {
-  font-family: 'Charis SIL', sans-serif;
-  font-size: 15px;
-  color: aliceblue;
-}
-
-/* asi jen jeden obrázek z komiksového příběhu vložit pro ppt*/
-
-.vizitka__image {
-  border-radius: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .form {
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
-  color: black;
+  color: aliceblue;
   text-align: center;
-  background-repeat: round;
-  background-size: cover;
-  height: 2300px;
+  height: 400px;
   max-width: 400px;
-  padding: '10px';
+}
+#question {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: rgb(75, 30, 147);
+  color: aliceblue;
+}
+.vizitka__nadpis {
+  margin-bottom: 10px;
 }
