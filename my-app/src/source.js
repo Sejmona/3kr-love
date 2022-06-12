@@ -31,17 +31,17 @@ export default [
     number: '2',
     image: ['tj1', 'tj2'],
     description:
-      'Zde byl hřbitov hradčanské dělostřelecké posádky a byla tu kde mrtvá schránka Morávka a Thümmela.  Ta jediná se zachovala a vy stojíte přímo před ní.  Thümmel byl agentem německé zpravodajské služby Abwehr a člen NSDAP. Spolupracoval s československou vojenskou rozvětkou už od roku 1937, kde byl veden jako agent A-54. Byl to z jeho strany docela pěkný podnik. Těžil z něj nejen peníze, ale i informace z druhé strany. Byl to dvojí agent a strategicky vypouštěl získané informace,  na tu kterou stranu. Po obsazení Československa sídlil v Petschkově paláci a dodával šéfovi naší rozvědky v Londýně Františku Moravcovi cenné informace. Spojkou v protektorátu byl Václav Morávek.  Thümmel byl znám pod krycím jménem Franta, Holm nebo Eva. Gestapo ho zatklo 21.3. 1942, poté ho věznilo na Pankráci a tvrdě vyslýchalo v Petschkárně.',
+      'Zde byl hřbitov hradčanské dělostřelecké posádky a byla tu i mrtvá schránka Morávka a Thümmela.  Ta jediná se zachovala,  vy stojíte přímo před ní.  Thümmel byl agentem německé zpravodajské služby Abwehr a člen NSDAP. Spolupracoval s československou vojenskou rozvětkou už od roku 1937, kde byl veden jako agent A-54. Byl to z jeho strany docela pěkný podnik. Těžil z něj nejen peníze, ale i informace z druhé strany. Byl to dvojí agent a strategicky vypouštěl získané informace,  na tu kterou stranu. Po obsazení Československa sídlil v Petschkově paláci a dodával šéfovi naší rozvědky v Londýně Františku Moravcovi cenné informace. Spojkou v protektorátu byl Václav Morávek.  Thümmel byl znám pod krycím jménem Franta, Holm nebo Eva. Gestapo ho zatklo 21.3. 1942, poté ho věznilo na Pankráci a tvrdě vyslýchalo v Petschkárně.',
     nadpis: 'Otázka k místu 2.',
     question: 'Co se ukrývalo v mrtvé schránce?',
     answer: [
-      'zprávy pro další zpravodaje národního odporu',
+      'Zprávy pro další zpravodaje národního odporu',
       'Láhev vína',
-      'časopis V boj',
+      'Časopis V boj',
     ],
 
     secret:
-      'najděte náhrobní kamen Josepha KKeittnera, v prvním slově na náhrobním kameni si napiš druhé písmenko.',
+      'Najděte náhrobní kamen Josepha KKeittnera, v prvním slově na náhrobním kameni si napiš druhé písmenko.',
     next_point:
       'Adresa dalšího bodu je Bělehradská 306/53, 120 00 Praha 2 - Vinohrady,',
     latitude: 50.0918706,
@@ -56,9 +56,9 @@ export default [
     nadpis: 'Otázka k místu 3.',
     question: 'Co převážel Černý turek',
     answer: [
-      'zprávy pro další zpravodaje národního odporu',
+      'Zprávy pro další zpravodaje národního odporu',
       'Láhev vína',
-      'časopis V boj',
+      'Časopis V boj',
     ],
     secret:
       'Najděte číslici 1116, pod ní je ve druhém slově 4 písmenko, to si zapište.',
@@ -74,8 +74,8 @@ export default [
     description:
       'Josef Balabán se měl 22. dubna 1941 setkat na křižovatce dnešní Evropské a Studentské ulice v Praze s představiteli odbojové organizace bývalých armádních rotmistrů, nazývané Prstýnkáři. Odbojáři na schůzku nedorazili, okolí obklíčilo gestapo. Balabán byl vůdčí postavou odbojové zpravodajsko-sabotážní skupiny Tři králové, která svými činy dováděla německou tajnou policii k zuřivosti. Gestapu se podařilo do řad Prstýnkářů infiltrovat konfidenta Antonína Neradu, který místo schůzky prozradil. Balabán věděl, co ho v případě zatčení čeká, a tak se do poslední chvíle bránil. Vypukla krátká, ale divoká přestřelka, při níž byl zraněn. Nakonec podlehl přesile a byl zatčen. Po převezení do Petschkova paláce ho okamžitě podrobili brutálním výslechům. Josef Balabán mučení vydržel a nepodlehl. Své přátele neprozradil a záměrně gestapo dezinformoval. Dne 3. října 1941 byl popraven v Praze-Ruzyni',
     nadpis: 'Otázka k místu 4.',
-    question: 'S kým šel na schůzku?      ',
-    answer: ['Lékarník', 'Václav Morávek', 'Se psem'],
+    question: 'S kým šel na Josef Balabán na poslední schůzku?      ',
+    answer: ['S lékarníkem', ' S Václavem Morávkem', 'Se psem'],
     secret:
       'Na paměťní desce najdi slovo začínající písmenem G a v tomto slově si zapiš šesté písmeno.',
     next_point:
