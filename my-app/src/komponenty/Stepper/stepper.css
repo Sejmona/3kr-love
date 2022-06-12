@@ -1,12 +1,9 @@
 .stepper {
+  display: flex;
+  justify-content: space-around;
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
-  color: white;
-  text-align: center;
   background-color: black;
-  background-repeat: round;
-  background-size: cover;
-  padding: '10px';
   border-style: solid;
   border-color: grey;
 }
@@ -15,7 +12,13 @@
   display: inline-block;
   font-family: 'Charis SIL', sans-serif;
   font-size: 15px;
-  color: white;
   text-align: center;
   padding: 10px 10px;
+  color: gray;
+}
+
+.inner_stepper--active {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
 }
