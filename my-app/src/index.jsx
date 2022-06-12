@@ -11,6 +11,7 @@ import { Vizitka } from './komponenty/Vizitka/vizitka';
 import { Pribeh } from './komponenty/Pribeh/pribeh';
 import { Podekovani } from './komponenty/Podekovani/podekovani';
 import { Onas } from './komponenty/Onas/onas';
+import { Vyhra } from './komponenty/Vyhra/vyhra';
 
 const App = () => (
   <div className="container">
@@ -30,6 +31,7 @@ createRoot(document.querySelector('#app')).render(
         <Route path="/kontakt" element={<Kontakty />} />
         <Route path="/game" element={<Game />} />
         <Route path="/vizitka" element={<Vizitka />} />
+        <Route path="/vyhra" element={<Vyhra />} />
       </Route>
     </Routes>
     ,

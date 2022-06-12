@@ -1,0 +1,8 @@
+.vyhra {
+  color: aliceblue;
+  background-color: black;
+}
+.vyhra a:hover,
+.vyhra a:focus {
+  background-color: rgb(28, 20, 70);
+}

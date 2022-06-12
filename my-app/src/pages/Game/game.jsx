@@ -3,6 +3,7 @@ import { Mapa } from '../../komponenty/Mapa';
 import Stepper from '../../komponenty/Stepper/stepper';
 import source from '../../source';
 import { Vizitka } from '../../komponenty/Vizitka/vizitka';
+import { Vyhra } from '../../komponenty/Vyhra/vyhra';
 
 let progress = localStorage.getItem('progress');
 
@@ -20,7 +21,7 @@ export const Game = () => {
   const getPosition = (entry) => {
     console.log(entry);
     if (Number(entry) >= source.length) {
-      console.log('Vyhrál jso hru Tři králové');
+      console.log('Vyhrál jsi hru Tři králové');
     } else {
       setUserPosition(entry);
     }
@@ -29,15 +30,19 @@ export const Game = () => {
   return (
     <>
       <Stepper handleChange={getPosition} />
-      {openVizitka ? (
-        <Vizitka stepData={source[userPosition]} />
+      {progress < source.length ? (
+        openVizitka ? (
+          <Vizitka stepData={source[userPosition]} />
+        ) : (
+          <Mapa
+            latitude={source[userPosition].latitude}
+            longitude={source[userPosition].longitude}
+            handelClick={() => setOpenVizitka(!openVizitka)}
+            title={source[userPosition].title}
+          />
+        )
       ) : (
-        <Mapa
-          latitude={source[userPosition].latitude}
-          longitude={source[userPosition].longitude}
-          handelClick={() => setOpenVizitka(!openVizitka)}
-          title={source[userPosition].title}
-        />
+        <Vyhra />
       )}
     </>
   );

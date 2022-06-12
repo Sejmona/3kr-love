@@ -3,6 +3,7 @@
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
 }
 
 .vizitka__number {
@@ -18,8 +19,6 @@
   font-size: 15px;
   color: aliceblue;
   text-align: center;
-  height: 400px;
-  max-width: 400px;
 }
 #question {
   margin-top: 20px;
@@ -29,4 +28,15 @@
 }
 .vizitka__nadpis {
   margin-bottom: 10px;
+}
+.vizitka__image {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px 20px;
+  margin: auto;
+}
+.question {
+  display: flex;
+  flex-direction: column;
 }
