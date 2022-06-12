@@ -1,17 +1,21 @@
 import React from 'react';
+import { Odpoved } from '../Odpoved/odpoved';
 import './vizitka.css';
 
 export const Vizitka = ({ stepData }) => {
   const [answer, setAnswer] = React.useState();
   const [wrongAnswer, setWrongAnswer] = React.useState(false);
+  const [odpoved, setOdpoved] = React.useState(false);
   const getRightAnswer = (event) => {
     const currentPosition = Number(localStorage.getItem('progress'));
     event.preventDefault();
     if (answer === stepData.answer[0]) {
       localStorage.setItem('progress', currentPosition + 1);
       setWrongAnswer(false);
+      setOdpoved(true);
     } else {
       setWrongAnswer(true);
+      setOdpoved(false);
     }
   };
   return (
@@ -48,6 +52,7 @@ export const Vizitka = ({ stepData }) => {
           {wrongAnswer && <p>Špatná odpověď, zkus to ještě jednou.</p>}
         </div>
       </div>
+      {odpoved && <Odpoved />}
     </>
   );
 };
