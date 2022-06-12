@@ -6,11 +6,11 @@ export const Vizitka = ({ stepData }) => {
     <>
       <div className="vizitka__page">
         <div className="vizitka__number">{stepData.number}</div>
-        <div className="vizitka__title">{stepData.title}</div>
+        <div className="vizitka__title">{stepData.title2}</div>
         <p className="vizitka__description">{stepData.description}</p>
         <div className="vizitka__image">
           {stepData.image.map((item, index) => (
-            <img key={index} src={`../img/${item}`} />
+            <img key={index} src={`/img/s${stepData.number}/${item}`} />
           ))}
 
           {/*<img className="user-avatar" src={`assets/img/${props.id}.png`} />*/}
