@@ -1,10 +1,10 @@
 import React from 'react';
 import './button.css';
 
-export const Button = ({ handleChange }) => {
+export const Button = ({ title, handleChange }) => {
   return (
     <button className="palac" onClick={handleChange}>
-      {/*<div className="vizitka__title">{handleChange.map(title)}</div>*/}
+      <h2>{title}</h2>
     </button>
   );
 };

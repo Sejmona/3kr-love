@@ -36,6 +36,7 @@ export const Game = () => {
           latitude={source[userPosition].latitude}
           longitude={source[userPosition].longitude}
           handelClick={() => setOpenVizitka(!openVizitka)}
+          title={source[userPosition].title}
         />
       )}
     </>

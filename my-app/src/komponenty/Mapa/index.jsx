@@ -7,7 +7,7 @@ import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import spendlikUrl from './../../img/spendlik.svg';
 import { Button } from './Button/button';
 
-export const Mapa = ({ latitude, longitude, handelClick }) => {
+export const Mapa = ({ title, latitude, longitude, handelClick }) => {
   const [viewport, setViewport] = React.useState({
     latitude: latitude,
     longitude: longitude,
@@ -79,7 +79,7 @@ export const Mapa = ({ latitude, longitude, handelClick }) => {
               longitude={longitude}
               onClose={() => setPopupOtevren(false)}
             >
-              <Button handleChange={handelClick} />
+              <Button handleChange={handelClick} title={title} />
             </Popup>
           )}
         </Marker>
