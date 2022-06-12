@@ -2,6 +2,18 @@ import React from 'react';
 import './vizitka.css';
 
 export const Vizitka = ({ stepData }) => {
+  const [answer, setAnswer] = React.useState();
+  const [wrongAnswer, setWrongAnswer] = React.useState(false);
+  const getRightAnswer = (event) => {
+    const currentPosition = Number(localStorage.getItem('progress'));
+    event.preventDefault();
+    if (answer === stepData.answer[0]) {
+      localStorage.setItem('progress', currentPosition + 1);
+      setWrongAnswer(false);
+    } else {
+      setWrongAnswer(true);
+    }
+  };
   return (
     <>
       <div className="vizitka__page">
@@ -18,14 +30,22 @@ export const Vizitka = ({ stepData }) => {
         <p className="vizitka__nadpis">{stepData.nadpis}</p>
 
         <div className="form">
-          <form>
-            <label htmlFor="question">{stepData.question}</label>
-            <select id="question" name="question">
-              {stepData.answer.map((item, index) => (
-                <option value={index}>{item}</option>
-              ))}
-            </select>
+          <form className="question" onSubmit={getRightAnswer}>
+            <p htmlFor="question">{stepData.question}</p>
+            {stepData.answer.map((item, index) => (
+              <label key={index}>
+                <input
+                  type="radio"
+                  value={item}
+                  checked={answer === item}
+                  onChange={(e) => setAnswer(e.target.value)}
+                />
+                {item}
+              </label>
+            ))}
+            <button type="submit">Odeslat</button>
           </form>
+          {wrongAnswer && <p>Špatná odpověď, zkus to ještě jednou.</p>}
         </div>
       </div>
     </>
