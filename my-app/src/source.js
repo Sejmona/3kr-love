@@ -182,8 +182,10 @@ export default [
     description:
       'Vazební věznice Praha-Pankrác je jednou z nejstarších dodnes fungujících institucí tohoto druhu na českém území. Její výstavba začala v polovině osmdesátých let 19. století a první vězni byli do cel přivezeni před 133 lety, 11. září 1889. Další osudy někdejší c. k. mužské zemské trestnice jsou úzce spjaty nejenom s historií českého vězeňství, ale i s politickým vývojem v českých zemích.cDo konce první světové války sloužila pankrácká věznice jako c. k. mužská zemská trestnice. Po vzniku samostatného Československa se z ní stala věznice Krajského soudu trestního v Praze. V roce 1926 bylo v jejím areálu zřízeno popraviště. K nejsmutnějším kapitolám v historii pankrácké věznice bezpochyby patří období protektorátu. Německá okupační správa v ní zřídila vyšetřovací vazbu gestapa a v dubnu 1943 zařízení k vykonávání poprav stětím gilotinou. V neblaze proslulé pankrácké „sekyrárně" bylo do konce války popraveno 1075 osob, včetně 155 žen. Popravčí komora s gilotinou je v pankrácké věznici z pietních důvodů zachována dodnes. Po válce bylo na dvoře věznice oběšeno několik válečných zločinců, například státní tajemník úřadu říšského protektora Karl Hermann Frank. Na Pankráci se ocitl i protektorátní prezident Emil Hácha, jenž zde v červnu 1945 zemřel. Po uchopení moci komunisty v únoru 1948 byla na Pankráci vězněna řada politických vězňů. Po vykonstruovaném procesu skončila na zdejším popravišti například demokratická politička Milada Horáková či někdejší generální tajemník KSČ Rudolf Slánský. V období normalizace pobýval za pankráckými mřížemi disident a pozdější prezident Václav Havel.',
     nadpis: 'Otázka k místu 10.',
-    question: 'Přežili ůčastníci akce ANTHROPOID',
-    answer: ['Ne', 'Jen tak tak', 'Ano'],
+
+
+    question: 'Co se podařilo členům odboje?',
+    answer: ['Zastřelit Heydricha ', 'Zastřelit Hitlera', 'Nic'],
 
     secret: '',
     next_point:

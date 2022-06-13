@@ -1,10 +1,14 @@
 import React from 'react';
+
 import './vyhra.css';
+
+import { Link } from 'react-router-dom';
 
 export const Vyhra = () => {
   return (
-    <div className="vyhra">
-      <h1>Gratulujeme ti, přežil jsi.</h1>
+    <div>
+      <h1>Výhra</h1>
+
     </div>
   );
 };
