@@ -9,6 +9,7 @@ export const Odpoved = () => {
 
       <Link to="/game" onClick={() => window.location.reload()}>
         Další adresa
+
       </Link>
     </div>
   );

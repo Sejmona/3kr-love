@@ -5,6 +5,7 @@ export const Vyhra = () => {
   return (
     <div className="vyhra">
       <h1>Výhrál jsi</h1>
+
     </div>
   );
 };

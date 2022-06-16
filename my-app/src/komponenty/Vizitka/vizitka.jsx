@@ -48,6 +48,8 @@ export const Vizitka = ({ stepData }) => {
             <button className="submit" type="submit">
               Odeslat
             </button>
+
+            
           </form>
           {wrongAnswer && <p>Špatná odpověď, zkus to ještě jednou.</p>}
         </div>

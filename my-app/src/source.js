@@ -79,7 +79,7 @@ export default [
     description:
       'Josef Balabán se měl 22. dubna 1941 setkat na křižovatce dnešní Evropské a Studentské ulice v Praze s představiteli odbojové organizace bývalých armádních rotmistrů, nazývané Prstýnkáři. Odbojáři na schůzku nedorazili, okolí obklíčilo gestapo. Balabán byl vůdčí postavou odbojové zpravodajsko-sabotážní skupiny Tři králové, která svými činy dováděla německou tajnou policii k zuřivosti. Gestapu se podařilo do řad Prstýnkářů infiltrovat konfidenta Antonína Neradu, který místo schůzky prozradil. Balabán věděl, co ho v případě zatčení čeká, a tak se do poslední chvíle bránil. Vypukla krátká, ale divoká přestřelka, při níž byl zraněn. Nakonec podlehl přesile a byl zatčen. Po převezení do Petschkova paláce ho okamžitě podrobili brutálním výslechům. Josef Balabán mučení vydržel a nepodlehl. Své přátele neprozradil a záměrně Gestapo dezinformoval. Dne 3. října 1941 byl popraven v Praze-Ruzyni',
     nadpis: 'Otázka k místu 4.',
-    question: 'S kým šel na Josef Balabán na poslední schůzku?      ',
+    question: 'S kým šel Josef Balabán na poslední schůzku?      ',
     answer: ['S lékarníkem', ' S Václavem Morávkem', 'Se psem'],
     secret:
       'Na paměťní desce najdi slovo začínající písmenem G a v tomto slově si zapiš šesté písmeno.',
@@ -97,7 +97,7 @@ export default [
       'Zde stojíte na místě, které zůstalo zachováno skoro, tak jak vypadalo před 80 lety. Když dům obejdete tak uvidíte ve třetím patře po pravé straně okno, jako jediné není opraveno.  Z tohoto okna Morávek utíkal s telegrafistou Františkem Peltánem, nazývaný čtvrtý ze tří králů. A když budete mít štěstí uvidíte, to co je v komiksu, tedy bez lezoucího Morávka. Co se tady stalo: Na jaře 1941 se gestapu podařilo skupinu Tří králů rozbít. V dubnu byl zrazen a zatčen Balabán, v květnu potom zadržen Mašín, když kryl ústup svých spolubojovníků z obklíčeného bytu v tomto domě ve třetím patře. Při riskantním útěku oknem přišel Morávek o levý ukazováček, jenž si uřízl o drát vysílačky.  Morávek plánoval Mašína osvobodit, ale plány na vysvobození Mašína selhaly, neboť ten byl po jeho nezdařeném pokusu o útěk převezen z podolské nemocnice na Pankrác a bedlivěji hlídán. Morávek se však nehodlal vzdát. V radiodepeších apeloval na české exilové představitele, aby Britům navrhli vyměnit Balabána s Mašínem za zajaté německé důstojníky, k čemuž ale nedošlo. Morávek byl vynikající střelec (předválečný přeborník Československé armády ve střelbě z pistole) a všude s sebou nosil dvě pistole a několik zásobníků. Jelikož byl též hluboce věřícím křesťanem, nosil s sebou vždy i kapesní Bibli kralickou, v níž si každý večer, bylo-li to možné, četl. Když se ho Mašín na jednom z jejich prvních setkání zeptal, v co vlastně věří, odpověděl mu legendární větou: „Věřím v Boha a ve své pistole!. Morávek mezi Třemi králi vynikal místy až ztřeštěnou odvahou. Na pražské velitelství gestapa pravidelně doručoval ilegální časopis V boj (říkalo se tomu „povinný výtisk“), neváhal navštívit v převleku oblíbenou hospodu Oskara Fleischera, šéfa skupiny pověřené jeho dopadením, a nechal si od něj připálit cigaretu. Poté mu přes jeho šéfa Hans-Ulricha Geschkeho poslal přátelskou zdravici s upozorněním na toto setkání. Rozzuřený Fleischer prý po zjištětní této skutečnosti vyrazil vzteky bez sebe na ulici a pozatýkal několik kolemjdoucích chodců. Posléze musel všechny propustit.  Fleischer se stal terčem i dalších Morávkových vtípků. Za to, že gestapo v jednom z ilegálních bytů zabavilo Morávkův zimník, poslal odbojář Fleischerovi jakoby z Bratislavy pohlednici, v níž mu sděloval, že kvůli tomu odjíždí do teplých krajin.',
     nadpis: 'Otázka k místu 5.',
     question: 'Při útěku se Morávek zranil, co si uřízl během útěku?',
-    answer: ['Ruku', 'Prst u nohy', 'Levý ukazováček'],
+    answer: ['Levý ukazováček', 'Prst u nohy', 'Ruku'],
     secret:
       'Na pamětní desce najdi, do které hodnosti byl Mašín in memoriam povýšen. Napiš si druhé písmeno odzadu.',
     next_point:
@@ -131,8 +131,8 @@ export default [
     description:
       'V odboji pokračoval i po zatčení obou druhů. Pokusil se své přátele dostat na svobodu diplomatickou cestou, spřádal plány na osvobození Mašína. Bez úspěchu. V říjnu 1941 byl v Ruzyni popraven Balabán. Mašín, kterého nacisté věznili a mučili více než rok – aniž by také on cokoliv prozradil – se ve vězení několikrát neúspěšně pokusil o sebevraždu a nakonec zemřel na Kobyliské střelnici v červnu 1942. Václav Morávek mezitím již podruhé unikl z obklíčení gestapem. V prosinci 1941 muži z německé tajné policie vtrhli do garsoniéry v Karlově ulici, kde Morávek ležel v posteli neoblečený a nepřipravený. Když jeden z příslušníků Gestapa vstoupil do ložnice, Morávek velmi pohotově vytáhl zpod polštáře pistoli a gestapáka zneškodnil. Rychle zabouchl dveře ložnice a přes skleněnou výplň zahájil krycí palbu. Muži z gestapa se museli krýt a Morávkovi se podařilo nejen obléct, ale také vyběhnout z bytu. Na schodech se střetl s právě přicházejícím kriminálním radou, kterého jednou ranou zneškodnil. Policista po něm sice ještě vystřelil, ale kulka ho jen lehce škrábla na stehně.Václavu Morávkovi se podařil husarský kousek – prostřílel se z beznadějné situace. Později o tom referoval do Londýna: „Přišlo devět, v lazaretu šest. Zázrakem Božím jsem vyvázl bez škrábnutí. Gestapo tají ostudu.“ Na poslední schůzku šel nerad.',
     nadpis: 'Otázka k místu 7.',
-    question: 'vjnfvf',
-    answer: ['Sparta', 'Slavie', 'Bohemka'],
+    question: 'Prostřílel se Václav Morávek?',
+    answer: ['Ano', 'Jen tak tak', 'Ne'],
     secret:
       'Jdi o několik domu z kopce dolů, směr vinohradská ulice najdeš zde pamětní desku, na které jsou jména lidí popravená gestapem. Najdi člověka popraveného18.11.1943. Správné písmeno je třetí odzadu z jeho jména.',
     next_point:
@@ -166,7 +166,7 @@ export default [
       'Štěstí nejhledanějšího muže protektorátu opustilo 21. března 1942. V podvečer se měl u Střešovické vozovny setkat s dvojitým agentem Paulem Thümmelem, důstojníkem německé zpravodajské služby, který však od roku 1936 spolupracoval také s československými vojenskými zpravodajci. Jeho role a motivace dodnes nejsou zcela vyjasněny, československému odboji prokazatelně poskytl jak pravdivé informace, tak i dezinformace. V každém případě si ho československá exilová vláda cenila jako vysoce postavený zdroj informací. Kontakt s ním zajišťoval právě Václav Morávek. Gestapo již ale mělo Thümmela v hrsti a použilo ho jako návnadu. Vědělo o plánované schůzce a na Morávka již na smluveném místě čekalo. Nejprve obklíčili a zatkli Morávkova spolupracovníka Václava Řeháka, kterého Morávek vyslal napřed jako svou spojku. O několik minut později Václav Morávek zemřel v přestřelce na nedaleké křižovatce dnešních ulic Svatovítská a Milady Horákové. V polovině šedesátých let minulého století byl v místě skonu Václava Morávka instalován malý kamenný pomník. Kvůli stavbě Pražského okruhu a ražbě tunelu Blanka byl v roce 2008 přemístěn do areálu nedalekých kasáren. Nového odhalení na Prašném mostě na prostranství, které dostalo název Morávkův park, se tento pomník dočkal v roce 2014. Původní obelisk doplnily tři velké kameny, symbolizující legendární Tři krále.',
     nadpis: 'Otázka k místu 9.',
     question: 'Jak Václav Morávek zemřel?',
-    answer: ['Byl zastřelen', 'Nějak nezemřel', 'Zastřelil se sám'],
+    answer: ['Byl zastřelen', 'Nezemřel', 'Zastřelil se sám'],
     secret:
       'Na náhrobním kameni jsou dvě slova stejně dlouhá, v prvním slově z těchto dvou, najdi páté písmeno od předu a zapiš si ho.',
     next_point:
@@ -182,8 +182,12 @@ export default [
     description:
       'Vazební věznice Praha-Pankrác je jednou z nejstarších dodnes fungujících institucí tohoto druhu na českém území. Její výstavba začala v polovině osmdesátých let 19. století a první vězni byli do cel přivezeni před 133 lety, 11. září 1889. Další osudy někdejší c. k. mužské zemské trestnice jsou úzce spjaty nejenom s historií českého vězeňství, ale i s politickým vývojem v českých zemích.cDo konce první světové války sloužila pankrácká věznice jako c. k. mužská zemská trestnice. Po vzniku samostatného Československa se z ní stala věznice Krajského soudu trestního v Praze. V roce 1926 bylo v jejím areálu zřízeno popraviště. K nejsmutnějším kapitolám v historii pankrácké věznice bezpochyby patří období protektorátu. Německá okupační správa v ní zřídila vyšetřovací vazbu gestapa a v dubnu 1943 zařízení k vykonávání poprav stětím gilotinou. V neblaze proslulé pankrácké „sekyrárně" bylo do konce války popraveno 1075 osob, včetně 155 žen. Popravčí komora s gilotinou je v pankrácké věznici z pietních důvodů zachována dodnes. Po válce bylo na dvoře věznice oběšeno několik válečných zločinců, například státní tajemník úřadu říšského protektora Karl Hermann Frank. Na Pankráci se ocitl i protektorátní prezident Emil Hácha, jenž zde v červnu 1945 zemřel. Po uchopení moci komunisty v únoru 1948 byla na Pankráci vězněna řada politických vězňů. Po vykonstruovaném procesu skončila na zdejším popravišti například demokratická politička Milada Horáková či někdejší generální tajemník KSČ Rudolf Slánský. V období normalizace pobýval za pankráckými mřížemi disident a pozdější prezident Václav Havel.',
     nadpis: 'Otázka k místu 10.',
-    question: 'Přežili ůčastníci akce ANTHROPOID',
-    answer: ['Ne', 'Jen tak tak', 'Ano'],
+
+
+
+    question: 'Co se podařilo členům odboje?',
+    answer: ['Zneškodnit Heydricha ', 'Zastřelit Hitlera', 'Nic'],
+
 
     secret: '',
     next_point:

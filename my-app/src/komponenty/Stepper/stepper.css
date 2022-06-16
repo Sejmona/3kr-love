@@ -15,14 +15,12 @@
   text-align: center;
   padding: 10px 10px;
   color: gray;
+
 }
 
 .inner_stepper--active {
   color: white;
   cursor: pointer;
-  font-weight: bold;
-}
-.sttepoind_background_number1:hover,
-.sttepoind_background_number1:focus {
-  background-color: rgb(28, 20, 70);
-}
+  font-weight: bold;}
+
+
