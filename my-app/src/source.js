@@ -184,8 +184,10 @@ export default [
     nadpis: 'Otázka k místu 10.',
 
 
+
     question: 'Co se podařilo členům odboje?',
-    answer: ['Zastřelit Heydricha ', 'Zastřelit Hitlera', 'Nic'],
+    answer: ['Zneškodnit Heydricha ', 'Zastřelit Hitlera', 'Nic'],
+
 
     secret: '',
     next_point:

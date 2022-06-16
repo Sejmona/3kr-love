@@ -28,8 +28,6 @@ export const Vizitka = ({ stepData }) => {
           {stepData.image.map((item, index) => (
             <img key={index} src={`/img/s${stepData.number}/${item}`} />
           ))}
-
-          {/*<img className="user-avatar" src={`assets/img/${props.id}.png`} />*/}
         </div>
         <p className="vizitka__nadpis">{stepData.nadpis}</p>
 
@@ -47,7 +45,11 @@ export const Vizitka = ({ stepData }) => {
                 {item}
               </label>
             ))}
-            <button type="submit">Odeslat</button>
+            <button className="submit" type="submit">
+              Odeslat
+            </button>
+
+            
           </form>
           {wrongAnswer && <p>Špatná odpověď, zkus to ještě jednou.</p>}
         </div>
