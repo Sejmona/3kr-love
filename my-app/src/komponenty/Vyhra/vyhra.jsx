@@ -3,9 +3,8 @@ import './vyhra.css';
 
 export const Vyhra = () => {
   return (
-    <div className="vyhra">
-      <h1>Výhrál jsi</h1>
-
+    <div className="posledni">
+      <h1>Vyhrál jsi</h1>
     </div>
   );
 };
